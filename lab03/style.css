@@ -1,0 +1,26 @@
+body {
+    background-color: #fef9f8;
+    color: black
+    font-family: Arial,
+}
+h1, h2, h3 {
+    color: #6a5acd;
+}
+p {
+    color: #444444;
+}
+a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#intro {
+    background-color: white;
+    padding: 5px;
+}
+.highlight {
+    color: #6a5acd;
+    font-weight: bold;
+}
