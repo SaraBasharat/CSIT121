@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Contact Form</h1>
+
+  <nav>
+    <a href="tierlist.html">Home</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="favBrand">Which makeup brand is your favorite?</label><br>
+    <select id="favBrand" name="favBrand">
+      <option value="rare">Rare Beauty</option>
+      <option value="charlotte">Charlotte Tilbury</option>
+      <option value="fenty">Fenty Beauty</option>
+      <option value="milk">Milk Makeup</option>
+      <option value="tower28">Tower 28</option>
+      <option value="glossier">Glossier</option>
+      <option value="nyx">NYX</option>
+      <option value="elf">ELF</option>
+      <option value="milani">Milani</option>
+      <option value="maybelline">Maybelline</option>
+      <option value="hudabeauty">Huda Beauty</option>
+      <option value="revlon">Revlon</option>
+      <option value="dior">Dior</option>
+      <option value="covergirl">Covergirl</option>
+      <option value="sheglam">Sheglam</option>
+    </select><br><br>
+
+    <p>What kind of makeup do you wear most often?</p>
+    <input type="checkbox" id="base" name="product" value="base">
+    <label for="base">Base (concealer, tint, foundation)</label><br>
+    <input type="checkbox" id="lip" name="product" value="lip">
+    <label for="lip">Lip products (gloss, tint, lipstick)</label><br>
+    <input type="checkbox" id="eye" name="product" value="eye">
+    <label for="eye">Eye makeup (mascara, shadow, liner)</label><br><br>
+
+    <p>What kind of finish do you prefer?</p>
+    <input type="radio" id="matte" name="finish" value="matte">
+    <label for="matte">Matte</label><br>
+    <input type="radio" id="dewy" name="finish" value="dewy">
+    <label for="dewy">Dewy / Natural</label><br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
