@@ -1,0 +1,171 @@
+/* Base reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* Layout */
+header,
+main,
+footer {
+  padding: 16px;
+}
+
+/* Header with background image */
+header {
+  border-bottom: 2px solid #ccc;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid #ccc;
+  margin-top: 24px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    width: 100%;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid #ccc;
+  margin-top: 24px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    width: 100%;
+  }
+}
+nav a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+nav a:focus,
+nav a:hover {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid #ccc;
+  margin-top: 24px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    width: 100%;
+  }
+}
